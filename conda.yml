@@ -1,0 +1,11 @@
+name: oxygen-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - jupyter
+  - pip:
+    - ./acia-47f7190445f41658b9281017092ed8d9db679adb.py3-none-any.whl
+    - mlflow
+    - pint_pandas
